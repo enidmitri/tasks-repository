@@ -1,2 +1,2 @@
 # tasks-repository
-privat
+curs
