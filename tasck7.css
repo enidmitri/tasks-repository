@@ -1,0 +1,7 @@
+li::before {
+    content:'text ';
+}
+
+li {
+    list-style: none;
+}
