@@ -3,79 +3,72 @@
 }
 
 .warpper {
-    border: 1px solid black;
+    width: 1100px;
     margin: 0 auto;
-    width: 800px;
-    height: 800px;
+    border: 1px solid transparent;
+    
 }
-.header {
-    border: 1px solid black;
-    position: relative;
-    width: 800px;
-    height: 150px;
-}
-.logo {
-    border: 1px solid black;
-    width: 200px;
-    height: 50px;
-    margin: 10px;
-    text-indent: 5px;
 
+h1 {
+    width: 300px;
+    margin: 0 auto;
 }
-.topmenu {
-    border:1px solid black ;
-    width: 150px;
-    height: 30px;
-    position: absolute;
-    inset: 10px 0px 0px 630px ;
-    text-indent: 5px;
+.block {display: flex;
+    flex-wrap: wrap;
 }
-.menu {
+
+.box {
     border: 1px solid black;
-    width: 500px;
-    height: 30px;
-    margin: 10px;
-    position: absolute;
-    inset: 90px 0px 0px 270px;
-    text-indent: 5px;
+    width: 30%;
+    height: 200px;
+    margin: 1em;
+    overflow: hidden;
+        
+}
+
+.box1 { text-align: left;
+    text-indent: 1cm;
+    word-spacing: 3cm;
+    text-transform: capitalize;
+       color: orange;
+    font-size: 20px;
+    background: rgb(243, 226, 195);
+    
    
-}
-.content {
-    border: 1px solid black;
-    position: relative;
-}
-.box1 {
-    border: 1px solid black;
-    width: 150px;
-    height: 500px;
-    position: absolute;
     
 }
 .box2 {
-    border: 1px solid black;
-    width: 150px;
-    height: 500px;
-    position: absolute;
-    left: 220px;
+    font-size: large;
+    text-align: center;
+    text-decoration: underline 2px red ;
+    color: red;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: 0.4em;
+    word-spacing: 0.2em;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    background: greenyellow;
+   
+   
 }
 .box3 {
-    border: 1px solid black;
-    width: 150px;
-    height: 500px;
-    position: absolute;
-    left: 430px;
+    font-style: italic;
+    text-transform: lowercase;
+    font-family: sans-serif;
+    
 }
-.box4 {
-    border: 1px solid black;
-    width: 150px;
-    height: 500px;
-    position: absolute;
-    left: 648px;
+
+.box4>h2 {
+    text-align: center;
+    font-size: 40px;  
 }
-.footer {
-    border: 1px solid black;
-    width: 800px;
-    height: 0px;
-    position: absolute;
-    top: 610px;
+
+.box4  {
+    flex-direction: row;
+    
+
 }
+
